@@ -9,9 +9,9 @@ bot.on('message', message =>{
     var msg = message.content;
     var prefix = ">" //The text before commands, you can put anything that you prefer
 
-    if(message.author.id != "605816292460462110" && message.channel.id === "603443096205918209"){
+    if(message.author.id != "606091290685210624" && message.channel.id === "603441900220973067"){
         if(msg.startsWith('>', 0)){
-            if(msg === prefix + "bang" && message.channel.id === "603443096205918209"){
+            if(msg === prefix + "bang" && message.channel.id === "603441900220973067"){
                 message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
             }
             else{
